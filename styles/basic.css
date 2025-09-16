@@ -3,6 +3,15 @@ main {
   margin: 0 auto;
 }
 
+img {
+  width: 200px;
+  height: auto;
+  border: 2px solid #ccc;
+  padding: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  
+}
+
 header nav {
   background-color: #333;
   padding: 1rem;
@@ -32,15 +41,6 @@ aside {
 aside img {
   width: 200px;
   height: auto;
-}
-
-img {
-  width: 200px;
-  height: auto;
-  border: 2px solid #ccc;
-  padding: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  
 }
 
 p {
