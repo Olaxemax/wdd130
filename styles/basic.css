@@ -34,13 +34,6 @@ aside img {
   height: auto;
 }
 
-main img {
-  width: 200px;
-  height: auto;
-
-}
-
-
 img {
   width: 200px;
   height: auto;
@@ -48,6 +41,12 @@ img {
   padding: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   
+}
+
+main img {
+  width: 200px;
+  height: auto;
+
 }
 
 
