@@ -47,7 +47,7 @@ nav, p, section, article {
   height: auto;
 }
 
-.hero h1 {
+h1 {
   position: absolute;
   top: 20px;
   width: 100%;
@@ -65,6 +65,7 @@ nav, p, section, article {
 }
 
 .hero article img {
+  position: absolute;
   float: right;
   width: 125px;
 }
