@@ -4,9 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="MY NAMES ARE OLALEMI EMMANUEL, BASED IN LAGOS, NIGERIA, THIS IS MY WEEK 2 WWD130 TASK.">
-    <meta name="author" content="OLALEMI EMMANUEL">
-    <title>WDD 130 | Personal Homepage</title>
+    <title>HTML & CSS Style Quiz</title>
     <link rel="stylesheet" href="styles/quiz.css">
 </head>
+
+<body>
+    <h1>HTML & CSS Style Quiz</h1>
+    <form>
+        <label for="q1">1. What does HTML stand for?</label>
+        <input type="text" id="q1" name="q1" required>
+
+        <label for="q2">2. Explain the purpose of CSS in web development:</label>
+        <textarea id="q2" name="q2" rows="4" required></textarea>
+
+        <label for="q3">3. Which tag is used to create a hyperlink?</label>
+        <select id="q3" name="q3" required>
+            <option value="" selected disabled>Choose One...</option>
+            <option value="a">&lt;a&gt;</option>
+            <option value="link">&lt;link&gt;</option>
+            <option value="href">href</option>
+        </select>
+
+        <label for="q4">4. How many heading levels are there in HTML?</label>
+        <input type="number" id="q4" name="q4" min="1" max="10" required>
+
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+
+</html>
